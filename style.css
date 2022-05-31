@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .header {
@@ -52,6 +56,20 @@ body {
     font-size: 11px;
 }
 
+.button-rostov {
+    padding: 19px 42px 20px 41px;
+    width: 207px;
+    height: 51px;
+    margin-right: 20px;
+}
+
+.button-none {
+    border: 1px solid #FFFFFF;
+    background: none;
+    padding: 19px 23px 20px 22px;
+    box-shadow: none;
+}
+
 .logo a {
     font-size: 11px;
     color: #E3B873;
@@ -61,6 +79,59 @@ a:active {
     color: #E3B873;
 }
 
+
 a:hover {
     color: #E3B873;
+}
+
+button:hover {
+    background: #ecd2a8;
+}
+
+.rostov {
+    background-image: url(rostov.jpg);
+    height: 707px;
+    background-size: cover;
+    padding-top: 194px;
+    position: relative;
+}
+
+.title {
+    margin: 0;
+    font-family:  'Yeseva One',  'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 675px;
+    margin-bottom: 19px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-right: 774px;
+    margin-bottom: 40px;
+}
+
+.city {
+    color: #E3B873;
+}
+
+.rostov-container {
+    position: relative;
+    z-index: 1;
+}
+
+.rostov-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
 }
