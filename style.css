@@ -143,6 +143,8 @@ button:hover {
     background-color: black;
     padding-top: 107px;
     padding-bottom: 416px;
+    position: relative;
+    margin-bottom: 779px;
 }
 
 .variant {
@@ -256,7 +258,10 @@ button:hover {
 }
 
 .online {
-    margin-top: -298px;
+    position: absolute;
+    top: 1540px;
+    left: 30vw;
+    right: 30vw;
 }
 
 .online-container {
@@ -332,7 +337,7 @@ button:hover {
 .form {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 148px;
+
     width: 800px;
     justify-content: center;
 }
@@ -414,21 +419,32 @@ input:checked + .text-check:before {
     background-position: center;
 }
 
+.types-of-repair {
+    background-image: url(image/house.jpg);
+    background-position: bottom 358px left;
+    background-repeat: no-repeat;
+}
+
 .types {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 124px;
+    margin-bottom: 230px;
 }
 
 .type {
     display: flex; 
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.type-foto {
+    margin-bottom: 133px;
 }
 
 .type-info {
-    margin-top: -130px; 
-    position: relative;
+    position: absolute;
+    bottom: 54px;
     z-index: 1;
     width: 330px;
     background: #FFFFFF;
@@ -451,7 +467,7 @@ input:checked + .text-check:before {
     margin-left: 15px;
     padding-left: 0;
     margin-top: 13px;
-    margin-bottom: 23px;
+
 }
 
 .text-ul {
@@ -476,6 +492,8 @@ input:checked + .text-check:before {
     border: 0;
     color: white;
     text-transform: uppercase;
+    align-self: flex-start;
+    margin-left: 31px;
 }
 
 .works {
@@ -484,21 +502,17 @@ input:checked + .text-check:before {
 }
 
 .works-info {
-    background-image: url(image/house.jpg);
-    background-size: contain;
-    padding-top: 117px;
-    margin-left: -127px;
-    padding-left: 250px;
+    
+    padding-left: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .work {
     display: flex;
     align-items: center;
-    padding-bottom: 86px;
-}
-
-.work:nth-last-of-type(1) {
-    padding-bottom: 46px;
+    /* padding-bottom: 86px; */
 }
 
 .number {
@@ -533,13 +547,13 @@ input:checked + .text-check:before {
     line-height: 19px;
     color: #363636;
     width: 330px;
-    margin-right: 74px;
+    /* margin-right: 74px; */
 }
 
 .form-work {
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-    margin-top: 117px;
+
     width: 506px;
     height: 509px;
     padding: 28px 49px;
@@ -607,8 +621,8 @@ input:checked + .text-check:before {
 .save {
     display: flex;
     justify-content: flex-end;
-    margin-top: 8px;
-    margin-bottom: 242px;
+    margin-top: 38px;
+    padding-bottom: 242px;
 }
 
 .pig {
@@ -630,6 +644,6 @@ input:checked + .text-check:before {
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     margin-left: 25px;
-    margin-right: 32px;
+    margin-right: 110px;
     width: 250px;
 }
