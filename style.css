@@ -647,3 +647,89 @@ input:checked + .text-check:before {
     margin-right: 110px;
     width: 250px;
 }
+
+.fantasies {
+    background-image: url(image/fantasy.jpg);
+    height: 864px;
+    background-size: cover;
+    padding-top: 137px;
+    position: relative;
+}
+
+.fantasies-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.fantasies-container {
+    position: relative;
+    z-index: 1;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.subtitle-fantasy {
+    letter-spacing: normal;
+    width: 300px;
+    margin-bottom: 47px;
+}
+
+.text-fantasy {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-fantasy-item {   
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.text-fantasy-item:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.li {
+    margin-bottom: 25px;
+}
+
+/* .fantasy {
+    position: relative;
+}
+
+.fantasy-foto {
+    position: absolute;
+} */
+
+#american_clock {
+    position: absolute;
+    bottom: 295px;
+    left: 499px;
+}
+
+#american_tv {
+    position: absolute;
+    top: 416px;
+    left: 499px;
+}
+
+#american_room {
+    position: absolute;
+    bottom: 641px;
+    left: 896px;
+}
+
+#american_table {
+    position: absolute;
+    top: 70px;
+    left: 896px;
+}
