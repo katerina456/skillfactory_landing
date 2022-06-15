@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Open+Sans&display=swap" rel="stylesheet">
@@ -30,7 +31,7 @@
             <div class="logo">
                 <a href="#">+7 (928) 768-32-39</a>
             </div>
-            <button class="button">
+            <button class="button button-nav">
                 Request a call
             </button>
         </div>
@@ -45,12 +46,15 @@
                 <p class="description">
                 Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work
                 </p>
-                <button class="button button-rostov">
-                    CALCULATE THE COST
-                </button>
-                <button class="button button-none">
-                    SUBMIT YOUR APPLICATION
-                </button>
+                <div class="buttons-rostov">
+                    <button class="button button-rostov">
+                        CALCULATE THE COST
+                    </button>
+                    <button class="button button-none">
+                        SUBMIT YOUR APPLICATION
+                    </button>
+                </div>
+                
             </div>
             <div class="rostov-overlay"></div>
         </section>
@@ -68,6 +72,7 @@
                         <p class="text">
                             Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market&nbsp;we&nbsp;have&nbsp;made&nbsp;happy more than 1000 families
                         </p>
+                    
                         <div class="flat-menu">
                             <div >
                                 <h3 class="h3">
@@ -102,9 +107,23 @@
                                 </p>
                             </div>
                         </div>
-                        <div><img src="icon/left_right.svg" alt="right"></div>
+                        <div class="left-right">
+                            <img src="icon/left.svg" alt="right">
+                            <img src="icon/point_on.svg" alt="right">
+                            <img src="icon/point_off.svg" alt="right">
+                            <img src="icon/point_off.svg" alt="right">
+                            <img src="icon/right.svg" alt="right">
+                        </div>
                     </div>
-                    <img src="image/flat.jpg" alt="flat" width="679px">
+                    <div class="completed-foto">
+                        <div class="round">
+                            <img src="icon/left-mobile.svg" alt="left">
+                        </div>
+                        <div class="round">
+                            <img src="icon/right-mobile.svg" alt="right">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -118,9 +137,7 @@
                     <img class="line" src="icon/line.svg" alt="line">
                 </div>
                 <div class="online-camera">
-                    <div class="play">
-                        <img src="icon/play.svg" alt="play">
-                    </div>
+                    <div class="play"></div>
                     <div class="online-overlay"></div>
                 </div>
                 <hr class="hr">
@@ -296,13 +313,176 @@
                 <img src="image/american_room.jpg" alt="american_room" id="american_room">
                 <img src="image/american_table.jpg" alt="american_table" id="american_table">     
                 
+                <div class="fantasies-mobil">
+                    <div class="round">
+                        <img src="icon/left-mobile.svg" alt="left">
+                    </div>
+                    <div class="round">
+                        <img src="icon/right-mobile.svg" alt="right">
+                    </div>
+                </div>
             </div>
+            
             <div class="fantasies-overlay"></div>
+        </section>
+
+        <section class="our-clients">
+            <div class="container clients-container">
+                <div class="clients-out-mobil">
+                    <h3 class="h3 h3-black">
+                        our clients
+                    </h3>
+                    <div class="href">
+                        <img class="line" src="icon/line.svg" alt="line">
+                        <img src="icon/hands.svg" alt="hands">
+                        <img class="line" src="icon/line.svg" alt="line">
+                    </div>
+                    <p class="big-text big-text-our">
+                        80% of our customers recommend us to their friends and family.
+                    </p>
+                    <div class="clients">
+                        <div class="client">
+                            <div class="foto-fio">
+                                <img src="image/client_maria.jpg" alt="Maria" class="client-foto">
+                                <h3 class="h3-our">
+                                    Fedosova Maria Konstantinovna
+                                </h3>
+                            </div>
+                            <p class="small-text small-text-our">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="small-text small-text-our">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                            </p>
+                            <button class="button button-client">
+                                <img src="icon/coordinata.svg" alt="coordinata">
+                                40 m2
+                                <img src="icon/vertical_line.svg" alt="">
+                                <img src="icon/calendar.svg" alt="calendar">
+                                48 DAYS
+                            </button>
+                        </div>
+                        <div class="client">
+                            <div class="foto-fio">
+                                <img src="image/client_sergey.jpg" alt="Sergey" class="client-foto">
+                                <h3 class="h3-our">
+                                    Afanasyev Sergey Alexandrovich
+                                </h3>
+                            </div>
+                            <p class="small-text small-text-our">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="small-text small-text-our">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                            </p>
+                            <button class="button button-client">
+                                <img src="icon/coordinata.svg" alt="coordinata">
+                                40 m2
+                                <img src="icon/vertical_line.svg" alt="">
+                                <img src="icon/calendar.svg" alt="calendar">
+                                48 DAYS
+                            </button>
+                        </div>
+                        <div class="client">
+                            <div class="foto-fio">
+                                <img src="image/client_egor.jpg" alt="Egor" class="client-foto">
+                                <h3 class="h3-our">
+                                    Kiriev Egor Leonidovich
+                                </h3>
+                            </div>
+                            <p class="small-text small-text-our">
+                                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.
+                            </p>
+                            <p class="small-text small-text-our">
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                            </p>
+                            <button class="button button-client">
+                                <img src="icon/coordinata.svg" alt="coordinata">
+                                40 m2
+                                <img src="icon/vertical_line.svg" alt="vertical_line">
+                                <img src="icon/calendar.svg" alt="calendar">
+                                48 DAYS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="#" class="form-client">
+                    <p class="h3 h3-white h3-white-mobil">
+                        have any questions?
+                    </p>
+                    <div class="form-items">
+                        <div class="form-item-client">
+                            <label for="Name3" class="text-label grey">Name</label>
+                            <input type="text" class="text-field-work" placeholder="What is your name:" id="Name3">
+                        </div>
+                        <div class="form-item-client">
+                            <label for="Phone3" class="text-label grey">Phone</label>
+                            <input type="text" class="text-field-work" placeholder="Your phone number:" id="Phone3">
+                        </div>
+                        <div class="form-item-client item-qestion">
+                            <label for="Question" class="text-label grey">Question</label>
+                            <input type="text" class="text-field-work" placeholder="I want to know:" id="Question">
+                        </div>
+                    </div>
+                    <div class="client-align">
+                        <input type="checkbox" id="Agree3">
+                        <label for="Agree3" class="text-check white">I agree to the processing of personal data</label>
+                        <input type="submit" value="Submit" class="button button-form button-form-client">
+                    </div>
+                </form>
+            </div>
+            <div class="clients-overlay">
+                <img src="image/city.svg" alt="city">
+                <img src="image/city.svg" alt="city">
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="container map-container">
+                <h3 class="h3 h3-map">
+                    Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29
+                </h3>
+                <div class="map-icons">
+                    <div class="map-icon">
+                        <img src="icon/letter.svg" alt="letter">
+                    </div>
+                    <div class="map-icon">
+                        <img src="icon/cam.svg" alt="camera">
+                    </div>
+                </div>
+                <div class="map-foto">
+                    <img src="image/map.jpg" alt=map"" class="map-desktop">
+                    <img src="image/map-mobil.jpg" alt=map"" class="map-mobil">
+                </div>
+                
+            </div>
+            <div class="map-overlay"></div>
         </section>
     </main>
 
-    <footer>
-        
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="logo">
+                IC "Repair Design Project"
+            </div>
+            <div>
+                <ul class="navigation">
+                    <li class="navigation-item"><a href="#">HOME</a></li>
+                    <li class="navigation-item"><a href="#">PROJECTS</a></li>
+                    <li class="navigation-item"><a href="#">MEASUREMRNT</a></li>
+                    <li class="navigation-item"><a href="#">TEAM</a></li>
+                    <li class="navigation-item"><a href="#">REVIEWS</a></li>
+                    <li class="navigation-item"><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="#">+7 (928) 768-32-39</a>
+            </div>
+            <button class="button">
+                Request a call
+            </button>
+        </div>
     </footer>
 </body>
 </html>
