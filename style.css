@@ -179,6 +179,11 @@ button:hover {
     text-decoration: underline;
 }
 
+.variant-item .active {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
 .subtitle {
     font-family: 'Yeseva One',  'Times New Roman', Times, serif;
     font-style: normal;
@@ -269,8 +274,17 @@ button:hover {
     justify-content: space-between;
 }
 
+.arrow {
+    cursor: pointer;
+}
+
+.point {
+    cursor: pointer;
+}
+
 .completed-foto {
-    background-image: url(image/flat.jpg);
+    background-image: url(image/flat1.jpg);
+    background-size: cover;
     height: 482px;
     width: 679px;
     display: flex;

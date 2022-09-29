@@ -62,7 +62,7 @@
         <section class="completed">
             <div class="container">
                 <ul class="variant ">
-                    <li class="variant-item"><a href="#">Rostov-on-Don, Admiral</a></li>
+                    <li class="variant-item"><a class="active" href="#">Rostov-on-Don, Admiral</a></li>
                     <li class="variant-item"><a href="#">Sochi Thieves</a></li>
                     <li class="variant-item"><a href="#">Rostov-on-Don Patriotic</a></li>
                 </ul>
@@ -108,18 +108,29 @@
                             </div>
                         </div>
                         <div class="left-right">
-                            <img src="icon/left.svg" alt="right">
-                            <img src="icon/point_on.svg" alt="right">
-                            <img src="icon/point_off.svg" alt="right">
-                            <img src="icon/point_off.svg" alt="right">
-                            <img src="icon/right.svg" alt="right">
+                            <div class="arrow left">
+                                <img src="icon/left.svg" alt="left">
+                            </div>
+                            <div class="point active">
+                                <img src="icon/point_on.svg" alt="point">
+                            </div>
+                            <div class="point">
+                                <img src="icon/point_off.svg" alt="point">
+                            </div>
+                            <div class="point">
+                                <img src="icon/point_off.svg" alt="point">
+                            </div>
+                            <div class="arrow right">
+                                <img src="icon/right.svg" alt="right">
+                            </div>
+                              
                         </div>
                     </div>
                     <div class="completed-foto">
-                        <div class="round">
+                        <div class="round left">
                             <img src="icon/left-mobile.svg" alt="left">
                         </div>
-                        <div class="round">
+                        <div class="round right">
                             <img src="icon/right-mobile.svg" alt="right">
                         </div>
                     </div>
@@ -484,5 +495,7 @@
             </button>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
